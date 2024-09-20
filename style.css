@@ -1,0 +1,37 @@
+input[type="text"] {
+  background-color: #34F312;
+  border: 5px solid #FF9B00;
+}
+
+input[type="password"] {
+  background-color: #FF0000;
+  border: 5px solid #78FF00;
+}
+
+::placeholder {
+  color: #0000FF;
+  opacity: 100%;
+}
+
+ul>li {
+  color: #8B00FF;
+}
+
+h1+p {
+  color: #FF00FF;
+  font-weight: 20px;
+}
+
+li:nth-child(2) {
+  color: #FF00FF;
+}
+
+#mark {
+  background-color: #00D4FF;
+  width: 35px;
+}
+
+h1::first-letter {
+  color: #FF90FF;
+  font-size: 200px;
+}
